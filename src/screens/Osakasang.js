@@ -182,7 +182,7 @@ function Osakasang() {
         >
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/skybuilding.png"}
+              src={process.env.PUBLIC_URL + "/image/harukas.png"}
               width="300"
               height="250"
               data-reactied="266>"
@@ -190,7 +190,7 @@ function Osakasang() {
           </Col>
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/img3.jpg"}
+              src={process.env.PUBLIC_URL + "/image/gumon.jpg"}
               width="300"
               height="250"
               data-reactied="266>"
@@ -199,7 +199,7 @@ function Osakasang() {
 
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/doyokuni.jpg"}
+              src={process.env.PUBLIC_URL + "/image/dendentaun.jpg"}
               width="300"
               height="250"
               data-reactied="266>"
@@ -207,7 +207,7 @@ function Osakasang() {
           </Col>
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/gaiukan.jpg"}
+              src={process.env.PUBLIC_URL + "/image/ssiyositai.jpg"}
               width="300"
               height="250"
               data-reactied="266>"
