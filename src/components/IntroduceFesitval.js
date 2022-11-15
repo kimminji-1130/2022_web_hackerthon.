@@ -22,7 +22,7 @@ class IntroduceFestival extends React.Component {
                         {Array.from({ length: 4 }).map((_, idx) => (
                             <Col>
                                 <Card>
-                                    <Card.Img variant="top" src="festival/1.jpeg" />
+                                    <Card.Img variant="top" src="image\img3.jpg" />
                                     <Card.Body>
                                         <Card.Title>텐마텐진 우메 마츠리</Card.Title>
                                         <Card.Text>

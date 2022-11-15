@@ -29,7 +29,7 @@ function App() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Osaka travel</h3>
+            <h3>about Osaka</h3>
             <p>오사카를 소개합니다</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -45,8 +45,8 @@ function App() {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Osaka travel</h3>
+            <p>오사카 관광명소를 소개합니다</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -60,8 +60,8 @@ function App() {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h3>Osaka festival</h3>
+            <p>오사카의 축제를 소개합니다</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
