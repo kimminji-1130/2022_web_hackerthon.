@@ -134,7 +134,8 @@ function Osakasang() {
               width="300"
               height="250"
               data-reactied="266>"
-            />
+              />
+              <div className="banner-txt"></div>
           </Col>
           <Col>
             <img
