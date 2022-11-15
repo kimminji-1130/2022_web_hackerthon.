@@ -30,7 +30,7 @@ function App() {
           />
           <Carousel.Caption>
             <h3>Osaka travel</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>오사카를 소개합니다</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
