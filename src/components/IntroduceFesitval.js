@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Stack from "react-bootstrap/Stack";
 
 class IntroduceFestival extends React.Component {
     render() {
@@ -11,7 +12,7 @@ class IntroduceFestival extends React.Component {
                 <Row className="justify-content-md-center" style={{ marginTop: "2%" }}>
                     <Col xs="2" md="2" lg="2"></Col>
                     <Col xs="auto" md="auto">
-                        <h1>사계절 내내 즐기는 축제</h1>
+                        <h1>사계절 다양하게 즐기는 오사카의 축제</h1>
                     </Col>
                     <Col xs="2" md="2" lg="2"></Col>
                 </Row>
@@ -33,6 +34,7 @@ class IntroduceFestival extends React.Component {
                                         </Link>
                                     </Card.Body>
                                 </Card>
+                                
                             </Col>
                         ))}
                         {/* <Col className="col-md-3">
@@ -40,6 +42,7 @@ class IntroduceFestival extends React.Component {
                     </Col> */}
                     </Row>
                 </div>
+
             </Container>
         );
     }

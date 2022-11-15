@@ -93,7 +93,7 @@ class IntroduceOsaka extends React.Component {
                                         className="text-center"
                                         style={{ marginTop: "15%" }}
                                     >
-                                        <h4>맛도리</h4>
+                                        <h4 style={{ color: "white" }}>맛도리</h4>
 
                                         <a href="food">
                                             <Button
@@ -127,7 +127,7 @@ class IntroduceOsaka extends React.Component {
                                         className="text-center"
                                         style={{ marginTop: "15%" }}
                                     >
-                                        <h4>축제</h4>
+                                        <h4 style={{ color: "white" }}>축제</h4>
 
                                         <a href="festival">
                                             <Button
@@ -159,7 +159,7 @@ class IntroduceOsaka extends React.Component {
                                         className="text-center"
                                         style={{ marginTop: "15%" }}
                                     >
-                                        <h4 style={{ width: "100%" }}>숙소</h4>
+                                        <h4 style={{ width: "100%", color: "white" }}>숙소</h4>
 
                                         <a href="hotel">
                                             <Button
