@@ -34,6 +34,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Osakasang" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -42,7 +43,8 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
                             
