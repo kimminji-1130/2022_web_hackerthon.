@@ -9,7 +9,14 @@ import Talk from "./screens/Talk";
 import Signup from "./screens/Signup";
 import Osaka from "./screens/Osaka";
 import Osakasang from "./screens/place/Osakasang";
+import Aveno from "./screens/place/Aveno";
+import Umeda from "./screens/place/Umeda";
 import Moeyomenske from "./screens/food/Moeyomenske";
+import Heijoen from "./screens/food/Heijoen";
+import Motomura from "./screens/food/Motomura";
+import Art from "./screens/hotel/Art";
+import Ivis from "./screens/hotel/Ivis";
+import Yahmatoyah from "./screens/hotel/Yahmatoyah";
 import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
 import Test from "./screens/Test";
@@ -75,7 +82,15 @@ function App() {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Osaka" element={<Osaka />} />
         <Route path="/Osakasang" element={<Osakasang />} />
+        <Route path="/Aveno" element={<Aveno />} />
+        <Route path="/Umeda" element={<Umeda />} />
+        <Route path="/Heijoen" element={<Heijoen />} />
         <Route path="/Moeyomenske" element={<Moeyomenske />} />
+        <Route path="/Heijoen" element={<Heijoen />} />
+        <Route path="/Motomura" element={<Motomura />} />
+        <Route path="/Art" element={<Art />} />
+        <Route path="/Ivis" element={<Ivis />} />
+        <Route path="/Yahmatoyah" element={<Yahmatoyah />} />
         <Route path="/talk" element={<Talk />} />
         <Route path="/test" element={<Test />} />
       </Routes>

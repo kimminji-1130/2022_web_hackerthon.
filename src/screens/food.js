@@ -26,6 +26,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Motomura" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -34,9 +35,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Motomura" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -56,7 +59,8 @@ function ResponsiveAutoExample() {
                             <div>라스트 오더: 22:00</div>
                             <div>가격: 규카츠 130g 1400엔</div>
                             <div>규카츠 130g 추가는 800엔 </div>
-                            <div>(현금결제만 가능)</div>
+                                <div>(현금결제만 가능)</div>
+                            </Link>
                         </Col>
 
                         <Col>
@@ -352,6 +356,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Motomura" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -360,9 +365,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Motomura" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -386,7 +393,8 @@ function ResponsiveAutoExample() {
                                 오코노미야끼와 타코야끼, 라멘 등 오사카에서
                                 맛봐야 할 음식은 다양한데, 야끼니쿠도 빠트릴 수
                                 없습니다. 직접 고기를 ...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
 
                         <Col>

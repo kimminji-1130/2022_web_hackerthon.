@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 
 function ResponsiveAutoExample() {
     return (
@@ -24,6 +25,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Art" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -32,9 +34,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Art" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -55,7 +59,8 @@ function ResponsiveAutoExample() {
                                 이 호텔은 벤텐초 역과 바로 연결되어 있어서
                                 대중교통을 이용하여 주변을 둘러 보기에 좋습니다.
                                 오사카
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
 
                         <Col>
@@ -185,6 +190,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Yahmatoyah" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -193,9 +199,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Yahmatoyah" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -219,7 +227,8 @@ function ResponsiveAutoExample() {
                                 도톤보리 바로 옆에 있기 때문에 리버뷰를 즐길 수
                                 있는 룸이 있어서 감성이 중요하신 분들에게
                                 추천합니다. 그리고...{" "}
-                            </div>
+                                </div>
+                            </Link>
                         </Col>
 
                         <Col>
@@ -354,14 +363,17 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Ivis" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={process.env.PUBLIC_URL + "/image/ibis.jpg"}
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Ivis" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -385,7 +397,8 @@ function ResponsiveAutoExample() {
                                 이비스 스타일스 오사카는 3성급 친환경 호텔,
                                 신사이바시에 위치해 있습니다. 식료품점/편의점,
                                 드라이클리닝/세탁 서비스...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
 
                         <Col>
