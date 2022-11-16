@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Carousel } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useState, useEffect } from "react";
 
@@ -190,6 +191,7 @@ function ResponsiveAutoExample() {
                             />
                         </Col>
                         <Col>
+                        <Link to="/Moeyomenske" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -200,7 +202,7 @@ function ResponsiveAutoExample() {
                             <div>
                                 주소: 5 Chome-12-21 Fukushima, Fukushima Ward,
                                 Osaka, 553-0003 일본
-                            </div>
+                                </div>
                             <div
                                 style={{
                                     marginTop: "10px",
@@ -213,8 +215,9 @@ function ResponsiveAutoExample() {
                                 16시 마감)
                             </div>
                             <div>
-                                오사카 현지인들을 줄 세우는 모에요멘스케{" "}
-                            </div>
+                                오사카 현지인들을 줄 세우는 모에요멘스케
+                                </div>
+                            </Link>
                         </Col>
 
                         <Col>

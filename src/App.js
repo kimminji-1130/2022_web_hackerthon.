@@ -8,10 +8,11 @@ import Login from "./screens/login";
 import Talk from "./screens/Talk";
 import Signup from "./screens/Signup";
 import Osaka from "./screens/Osaka";
-import Osakasang from "./screens/Osakasang";
+import Osakasang from "./screens/place/Osakasang";
+import Moeyomenske from "./screens/food/Moeyomenske";
 import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
-import Test from './screens/Test';
+import Test from "./screens/Test";
 
 function App() {
   return (
@@ -74,11 +75,10 @@ function App() {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Osaka" element={<Osaka />} />
         <Route path="/Osakasang" element={<Osakasang />} />
+        <Route path="/Moeyomenske" element={<Moeyomenske />} />
         <Route path="/talk" element={<Talk />} />
         <Route path="/test" element={<Test />} />
       </Routes>
-
-      
     </Router>
   );
 }
