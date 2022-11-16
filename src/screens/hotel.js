@@ -25,11 +25,11 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
-                        <Link to="/Art" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/Arthotel" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
-                                    "/image/arthotel.jpg"
+                                    "/image/Arthotel.jpg"
                                 }
                                 width="300"
                                 height="250"
@@ -38,7 +38,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Art" style={{textDecoration: 'none', color: 'black' }} >
+                            <Link to="/Arthotel" style={{ textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",

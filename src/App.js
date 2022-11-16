@@ -14,7 +14,7 @@ import Umeda from "./screens/place/Umeda";
 import Moeyomenske from "./screens/food/Moeyomenske";
 import Heijoen from "./screens/food/Heijoen";
 import Motomura from "./screens/food/Motomura";
-import Art from "./screens/hotel/Art";
+import Arthotel from "./screens/hotel/Arthotel";
 import Ivis from "./screens/hotel/Ivis";
 import Yahmatoyah from "./screens/hotel/Yahmatoyah";
 import NavBarElements from "./component/Navbar/NavBarElements";
@@ -88,7 +88,7 @@ function App() {
         <Route path="/Moeyomenske" element={<Moeyomenske />} />
         <Route path="/Heijoen" element={<Heijoen />} />
         <Route path="/Motomura" element={<Motomura />} />
-        <Route path="/Art" element={<Art />} />
+        <Route path="/Arthotel" element={<Arthotel />} />
         <Route path="/Yahmatoyah" element={<Yahmatoyah />} />
         <Route path="/talk" element={<Talk />} />
         <Route path="/test" element={<Test />} />
