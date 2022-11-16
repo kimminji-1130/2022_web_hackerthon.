@@ -81,7 +81,7 @@ function Moeyomenske() {
           </div>
           <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6452-2101</div>
           <div style={{ paddingTop: "20px" }}>가격: 950~1,200엔</div>
-          <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
+          <div style={{ paddingTop: "20px" }}>주차공간: 있음</div>
           <div style={{ paddingTop: "20px" }}>영업시간:  11:00 ~ 15:30 (화요일 휴무, 일요일만 16시 마감)</div>
         </Col>
       </Row>
@@ -104,7 +104,7 @@ function Moeyomenske() {
             <b>오시는 길</b>
           </h3>
           <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1126.7635711502076!2d135.486736463719!3d34.6962518362416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e73d8ea37a69%3A0xd319b6d6c0d798c5!2z66qo7JeQ7JqUIOupmOyKpOy8gA!5e0!3m2!1sko!2skr!4v1668582261634!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1126.7635711502076!2d135.486736463719!3d34.6962518362416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e73d8ea37a69%3A0xd319b6d6c0d798c5!2z66qo7JeQ7JqUIOupmOyKpOy8gA!5e0!3m2!1sko!2skr!4v1668582261634!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -128,7 +128,7 @@ function Moeyomenske() {
           >
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/skybuilding.png"}
+                src={process.env.PUBLIC_URL + "image2/ichran.jpg"}
                 width="300"
                 height="250"
                 data-reactied="266>"
@@ -137,7 +137,7 @@ function Moeyomenske() {
             </Col>
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/img3.jpg"}
+                src={process.env.PUBLIC_URL + "/image/chibo.jpg"}
                 width="300"
                 height="250"
                 data-reactied="266>"
@@ -146,7 +146,7 @@ function Moeyomenske() {
 
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/doyokuni.jpg"}
+                src={process.env.PUBLIC_URL + "/image/moeyomenske.jpg"}
                 width="300"
                 height="250"
                 data-reactied="266>"
@@ -154,7 +154,7 @@ function Moeyomenske() {
             </Col>
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/gaiukan.jpg"}
+                src={process.env.PUBLIC_URL + "/image2/torihachi.png"}
                 width="300"
                 height="250"
                 data-reactied="266>"
@@ -178,7 +178,7 @@ function Moeyomenske() {
           >
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/harukas.png"}
+                src={process.env.PUBLIC_URL + "/image2/yahmakarayah.png"}
                 width="300"
                 height="250"
                 data-reactied="266>"
@@ -186,7 +186,7 @@ function Moeyomenske() {
             </Col>
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/gumon.jpg"}
+                src={process.env.PUBLIC_URL + "/image2/heivoen.png"}
                 width="300"
                 height="250"
                 data-reactied="266>"
@@ -195,7 +195,7 @@ function Moeyomenske() {
 
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/dendentaun.jpg"}
+                src={process.env.PUBLIC_URL + "/image2/nakatani.png"}
                 width="300"
                 height="250"
                 data-reactied="266>"
@@ -203,7 +203,7 @@ function Moeyomenske() {
             </Col>
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/ssiyositai.jpg"}
+                src={process.env.PUBLIC_URL + "/image2/hukutaro.png"}
                 width="300"
                 height="250"
                 data-reactied="266>"
