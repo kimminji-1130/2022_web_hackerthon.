@@ -9,7 +9,7 @@ const colors = {
   grey: "#a9a9a9",
 };
 
-function Moeyomenske() {
+function yahmakarayah() {
   const [currentValue, setCurrentValue] = useState(0);
   const [hoverValue, setHoverValue] = useState(undefined);
   const stars = Array(5).fill(0);
@@ -30,7 +30,7 @@ function Moeyomenske() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image/Moeyomenske.jpg"}
+            src={process.env.PUBLIC_URL + "/image/yahmakarayah.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -145,7 +145,7 @@ function Moeyomenske() {
 
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/moeyomenske.jpg"}
+                src={process.env.PUBLIC_URL + "/image/yahmakarayah.jpg"}
                 width="300"
                 height="250"
                 data-reactied="266>"
@@ -248,4 +248,4 @@ const styles = {
   },
 };
 
-export default Moeyomenske;
+export default yahmakarayah;

@@ -9,7 +9,7 @@ const colors = {
   grey: "#a9a9a9",
 };
 
-function Moeyomenske() {
+function newotany() {
   const [currentValue, setCurrentValue] = useState(0);
   const [hoverValue, setHoverValue] = useState(undefined);
   const stars = Array(5).fill(0);
@@ -30,7 +30,7 @@ function Moeyomenske() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image/Moeyomenske.jpg"}
+            src={process.env.PUBLIC_URL + "/image/newotany.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -73,16 +73,16 @@ function Moeyomenske() {
               marginTop: "10px",
             }}
           >
-            <b>모토무라 난마점</b>
+            <b>모에요멘스케</b>
           </h1>
 
-          <div style={{ paddingTop: "40px" }}>일본 〒542-0076 Osaka, Chuo Ward, Nanba, 3 Chome-3-1 地下一階 スガタビル</div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6643-3313</div>
-          <div style={{ paddingTop: "20px" }}>규카츠 130g : 1400엔 260g : 2200엔 130g : 추가는 800엔</div>
-          <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>
-            영업시간: 11:00 ~ 22:00 (화요일 휴무, 일요일만 16시 마감)
+          <div style={{ paddingTop: "40px" }}>
+          5 Chome-12-21 Fukushima, Fukushima Ward, Osaka, 553-0003 일본
           </div>
+          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6452-2101</div>
+          <div style={{ paddingTop: "20px" }}>가격: 950~1,200엔</div>
+          <div style={{ paddingTop: "20px" }}>주차공간: 있음</div>
+          <div style={{ paddingTop: "20px" }}>영업시간:  11:00 ~ 15:30 (화요일 휴무, 일요일만 16시 마감)</div>
         </Col>
       </Row>
       <Row>
@@ -91,11 +91,12 @@ function Moeyomenske() {
             <b>설명</b>
           </h3>
           <div style={{ paddingTop: "20px", fontSize: "20px", lineHeight: "50px" }}>
-            규카츠(牛カツ)는 돈가스의 소고기 버전으로 돼지고기가 아닌 쇠고기로 만들어서 빵가루
-            옷을 입히고 튀긴 음식인데, 한참 규카츠가 인기있던 2016~2017년 무렵엔, 한국에서도 
-            일본식 규카츠 전문점을 어렵지 않게 볼 수 있었습니다.
-            튀김옷만 바싹 익히고, 고기는 거의 익지 않은 레어상태로 나와서 불판에 직접 구워먹으면 
-            되는데 굽기에 따라 식감과 맛이 달라지는 게 규카츠의 가장 큰 매력입니다. 
+            한국에 국밥이 있다면 일본에는 라멘이 있다. 다양한 종류의 국밥이 있듯 라멘의 세계도 다채롭다,
+            어떤 육수인지, 무엇으로 간을 하는지, 면의 굵기, 면을 먹는 방식(국물·비빔·찍먹) 등을 조합하고, 
+            각 가게별 비법이 들어가면 서로 다른 수천 개의 라멘이 완성된다.오사카 현지인들을 줄 세우는 
+            모에요멘스케는 오리와 닭을 활용해 깔끔하면서도 깊은 육수를 뽑아내는 걸로 유명하다. 쫄깃한 면과, 
+            그 면을 살포시 덮고 있는 부드럽고 적당히 기름진 차슈도 매력 포인트. 350엔(한화 약 3,500원)으로 
+            맛볼 수 있는 차슈 덮밥도 꼭 먹어봐야 한다. 
           </div>
         </Col>
         <Col lg={7}>
@@ -103,7 +104,7 @@ function Moeyomenske() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.528463513408!2d135.50196169999998!3d34.66660960000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e76b53bc67e9%3A0xc718ee6b423ad7d3!2z6rec7Lm07LigIOuqqO2GoOustOudvCDrgpzrsJTsoJA!5e0!3m2!1sko!2skr!4v1668591091610!5m2!1sko!2skr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1126.7635711502076!2d135.486736463719!3d34.6962518362416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e73d8ea37a69%3A0xd319b6d6c0d798c5!2z66qo7JeQ7JqUIOupmOyKpOy8gA!5e0!3m2!1sko!2skr!4v1668582261634!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -145,7 +146,7 @@ function Moeyomenske() {
 
             <Col>
               <img
-                src={process.env.PUBLIC_URL + "/image/moeyomenske.jpg"}
+                src={process.env.PUBLIC_URL + "/image/newotany.jpg"}
                 width="300"
                 height="250"
                 data-reactied="266>"
@@ -248,4 +249,4 @@ const styles = {
   },
 };
 
-export default Moeyomenske;
+export default newotany;

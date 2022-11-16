@@ -89,10 +89,10 @@ function App() {
         <Route path="/Heijoen" element={<Heijoen />} />
         <Route path="/Motomura" element={<Motomura />} />
         <Route path="/Art" element={<Art />} />
-        <Route path="/Ivis" element={<Ivis />} />
         <Route path="/Yahmatoyah" element={<Yahmatoyah />} />
         <Route path="/talk" element={<Talk />} />
         <Route path="/test" element={<Test />} />
+        <Route path="/Ivis" element={<Ivis/>}/>
       </Routes>
     </Router>
   );

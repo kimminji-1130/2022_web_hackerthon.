@@ -363,7 +363,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
-                        <Link to="/Ivis" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/ibisosaka" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={process.env.PUBLIC_URL + "/image/ibis.jpg"}
                                 width="300"
@@ -373,7 +373,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Ivis" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/ivis" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
