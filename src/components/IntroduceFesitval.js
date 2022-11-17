@@ -1,48 +1,104 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Stack from "react-bootstrap/Stack";
 
 class IntroduceFestival extends React.Component {
     render() {
         return (
-            <Container fluid
-            // style={{backgroundImage:"url(image3/backgroundImage1.jpg)"}}
+            <Container
+                fluid
+                // style={{backgroundImage:"url(image3/backgroundImage1.jpg)"}}
             >
-                <Row className="justify-content-md-center" style={{ marginTop: "2%" }}>
+                <Row
+                    className="justify-content-md-center"
+                    style={{ marginTop: "2%" }}
+                >
                     <Col xs="2" md="2" lg="2"></Col>
                     <Col xs="auto" md="auto">
-                        <h1>사계절 다양하게 즐기는 오사카의 축제</h1>
+                        <h1>사계절 내내 즐기는 축제</h1>
                     </Col>
                     <Col xs="2" md="2" lg="2"></Col>
                 </Row>
 
                 <div style={{ padding: "0 10%", marginTop: "2%" }}>
                     <Row xs={1} md={2} lg={4} className="g-4">
-                        {Array.from({ length: 4 }).map((_, idx) => (
-                            <Col>
-                                <Card>
-                                    <Card.Img variant="top" src="image\img3.jpg" />
-                                    <Card.Body>
-                                        <Card.Title>텐마텐진 우메 마츠리</Card.Title>
-                                        <Card.Text>
-                                            텐만구의 상징인 매화 축제로 만개하는 아름다운 매화꽃을
-                                            볼 수 있는 축제입니다.
-                                        </Card.Text>
-                                        <Link to="/login">
-                                            <Button variant="primary">Go somewhere</Button>
-                                        </Link>
-                                    </Card.Body>
-                                </Card>
-                                
-                            </Col>
-                        ))}
+                        <Col>
+                            <Card>
+                                <Card.Img variant="top" src="image2\omiztori.jpg" />
+                                <Card.Body>
+                                    <Card.Title>
+                                    오미즈토리 마츠리
+                                    </Card.Title>
+                                    <Card.Text>
+                                    날짜 : 매년 3월 1-14일<br></br> 장소 : 도다이지
+                                    </Card.Text>
+                                    <Link to="/login">
+                                        <Button variant="primary">
+                                            더보기
+                                        </Button>
+                                    </Link>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card>
+                                <Card.Img variant="top" src="image2\sacurano.jpg" />
+                                <Card.Body>
+                                    <Card.Title>
+                                      사쿠라노 도리누케
+                                    </Card.Title>
+                                    <Card.Text>
+                                    날짜 : 매년 4월 초에서 중순<br></br>장소 : 오사카 조폐 박물관 구내
+                                    </Card.Text>
+                                    <Link to="/login">
+                                        <Button variant="primary">
+                                            더보기
+                                        </Button>
+                                    </Link>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card>
+                                <Card.Img variant="top" src="image2\smiyorimachuri.jpg" />
+                                <Card.Body>
+                                    <Card.Title>
+                                    스미요시 마츠리
+                                    </Card.Title>
+                                    <Card.Text>
+                                    날짜 : 매년 7월 30일 - 8월 1일<br></br>장소 : 스미요시 신사
+                                    </Card.Text>
+                                    <Link to="/login">
+                                        <Button variant="primary">
+                                            더보기
+                                        </Button>
+                                    </Link>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card>
+                                <Card.Img variant="top" src="image2\chrismas.jpg" />
+                                <Card.Body>
+                                    <Card.Title>
+                                    유니버설 크리스마스 축제
+                                    </Card.Title>
+                                    <Card.Text>
+                                    날짜 : 2022년 11월 11일 - 2023년 1월 9일<br></br>장소 : 유니버설 스튜디오 재팬
+                                    </Card.Text>
+                                    <Link to="/login">
+                                        <Button variant="primary">
+                                            더보기
+                                        </Button>
+                                    </Link>
+                                </Card.Body>
+                            </Card>
+                        </Col>
                         {/* <Col className="col-md-3">
                         <Image src="festival/1.jpeg" />
                     </Col> */}
                     </Row>
                 </div>
-
             </Container>
         );
     }

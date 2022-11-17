@@ -48,7 +48,7 @@ class IntroduceOsaka extends React.Component {
                             <Row>
                                 <Col className="ratio ratio-16x9">
                                     <Image
-                                        src="image2/aburia.png"
+                                        src="image\osaka.jpg"
                                         style={{
                                             padding: "5px",
                                             borderRadius: "20px",
@@ -59,7 +59,7 @@ class IntroduceOsaka extends React.Component {
                                         className="text-center"
                                         style={{ marginTop: "15%" }}
                                     >
-                                        <h4 style={{ color: "white" }}>
+                                        <h4 style={{ color: "black" }}>
                                             여행지
                                         </h4>
 
@@ -159,7 +159,7 @@ class IntroduceOsaka extends React.Component {
                                         className="text-center"
                                         style={{ marginTop: "15%" }}
                                     >
-                                        <h4 style={{ width: "100%", color: "white" }}>숙소</h4>
+                                        <h4 style={{ color: "white" }}>숙소</h4>
 
                                         <a href="hotel">
                                             <Button

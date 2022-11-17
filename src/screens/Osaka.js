@@ -4,28 +4,28 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 const Osaka = () => {
   return (
-    <Container
-      style={{
-        paddingLeft: "200px",
-        paddingRight: "200px",
-        opacity: "100%",
-        backgroundImage: <img src={process.env.PUBLIC_URL + "/image2/background2.jpg"}/>,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "top center",
+    <Container fluid
+      
+        style={{backgroundImage:"url(image2/realback.jpg)",
+        backgroundRepeat : "no-repeat",
         backgroundSize: "cover",
-        backgroundAttachment: "fixed",
-      }}
-    >
+        marginLeft: "0px",
+        marginRight: "0px",
+        paddingLeft:"200px"
+        
+    }}
+        >
       <h1
         style={{
           marginTop: "20px",
+
         }}
       >
         오사카를 소개합니다 ╰(*°▽°*)╯
       </h1>
       <Row style={{ height: "400px", marginTop: "90px" }}>
         <Col lg={6}>
-          <div class="hi"style={{ marginTop: "20px"}}>
+          <div style={{ marginTop: "20px"}}>
             <b style={{fontSize:"20px"}}>오사카<br></br>
               오사카는 도쿄와 더불어 일본의 2대 교통중심지이며, 일본 혼슈 서부에 위치한
               세토나이카이의 동쪽, 오사카만에 면한 도시입니다. 신칸센을 비롯하여 철도 지하철 도로가
@@ -40,10 +40,11 @@ const Osaka = () => {
           <img
             src={process.env.PUBLIC_URL + "/image2/background1.jpg"}
             width="90%"
-            height="60%"
+            height="350px"
             data-reactied="266"
             style={{
               borderRadius: "10px 100px / 120px",
+              objectFit:"cover"
             }}
           />
         </Col>
@@ -53,9 +54,11 @@ const Osaka = () => {
         <img
             src={process.env.PUBLIC_URL + "/image2/background3.jpg"}
             width="90%"
-            height="65%"
+            height="300px"
             data-reactied="266"
-            style={{ borderRadius: "10px 100px / 120px" }}
+            style={{
+              borderRadius: "10px 100px / 120px",
+              objectFit:"cover"  }}
           />
         </Col>
         <Col lg={6}>
@@ -90,7 +93,7 @@ const Osaka = () => {
         <Col lg={6}>
           <img
             src={process.env.PUBLIC_URL + "/image2/background4.jpg"}
-            width="440px"
+            width="90%"
             height="70%"
             data-reactied="266"
             style={{ borderRadius: "10px 100px / 120px" }}
@@ -104,7 +107,8 @@ const Osaka = () => {
             width="440px"
             height="70%"
             style={{
-              borderRadius: "10px 100px / 120px"
+              borderRadius: "10px 100px / 120px",
+              objectFit:"cover"
             }}
           />
         </Col>
@@ -140,11 +144,13 @@ const Osaka = () => {
         </Col>
         <Col lg={6}>
           <img
-            src={process.env.PUBLIC_URL + "/image2/back1.jpg"}
+            src={process.env.PUBLIC_URL + "/image2/pretty.jpg"}
             width="70%"
             height="70%"
             data-reactied="266"
-            style={{ borderRadius: "10px 100px / 120px" }}
+            style={{
+              borderRadius: "10px 100px / 120px"
+            }}
           />
         </Col>
       </Row>
