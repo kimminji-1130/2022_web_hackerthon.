@@ -59,7 +59,7 @@ class IntroduceOsaka extends React.Component {
                                         className="text-center"
                                         style={{ marginTop: "15%" }}
                                     >
-                                        <h4 style={{ color: "black" }}>
+                                        <h4 style={{ color: "white" }}>
                                             여행지
                                         </h4>
 

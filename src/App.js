@@ -17,6 +17,10 @@ import Motomura from "./screens/food/Motomura";
 import Arthotel from "./screens/hotel/Arthotel";
 import Ivis from "./screens/hotel/Ivis";
 import Yahmatoyah from "./screens/hotel/Yahmatoyah";
+import Omiztori from "./screens/festival/Omiztori";
+import Sacurano from "./screens/festival/Sacurano";
+import Smiyorimachuri from "./screens/festival/Smiyorimachuri";
+import Universalport from "./screens/festival/Universalport";
 import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
 import Test from "./screens/Test";
@@ -90,6 +94,10 @@ function App() {
         <Route path="/Motomura" element={<Motomura />} />
         <Route path="/Arthotel" element={<Arthotel />} />
         <Route path="/Yahmatoyah" element={<Yahmatoyah />} />
+        <Route path="/Omiztori" element={<Omiztori />} />
+        <Route path="/Sacurano" element={<Sacurano />} />
+        <Route path="/Smiyorimachuri" element={<Smiyorimachuri />} />
+        <Route path="/Universalport" element={<Universalport />} />
         <Route path="/talk" element={<Talk />} />
         <Route path="/test" element={<Test />} />
         <Route path="/Ivis" element={<Ivis/>}/>
