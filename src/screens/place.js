@@ -12,7 +12,18 @@ import Grid from "@mui/material/Grid";
 function ResponsiveAutoExample() {
     return (
         
-        <Container>
+        <Container fluid
+      
+        style={{backgroundImage:"url(image2/realback.jpg)",
+        backgroundRepeat : "no-repeat",
+        backgroundSize: "cover",
+        marginLeft: "0px",
+        marginRight: "0px",
+            paddingLeft: "100px",
+            paddingRight:"100px"
+        
+    }}
+        >
             <h3
                 style={{
                     marginTop: "20px", fontFamily: "Gamja Flower"
