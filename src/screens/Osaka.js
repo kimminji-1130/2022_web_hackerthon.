@@ -1,17 +1,19 @@
+import { Scale } from "@mui/icons-material";
+// import "./osaka.css";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 const Osaka = () => {
   return (
     <Container
-      class="hi"
       style={{
         paddingLeft: "200px",
         paddingRight: "200px",
         opacity: "100%",
-        // backgroundImage: `url(${process.env.PUBLIC_URL + "/image/arthotel.jpg"})`,
-        // backgroundRepeat: "no-repeat",
-        // backgroundPosition: "top center",
-        // backgroundSize: " cover",
+        backgroundImage: <img src={process.env.PUBLIC_URL + "/image2/background2.jpg"}/>,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "top center",
+        backgroundSize: "cover",
+        backgroundAttachment: "fixed",
       }}
     >
       <h1
@@ -21,10 +23,10 @@ const Osaka = () => {
       >
         오사카를 소개합니다 ╰(*°▽°*)╯
       </h1>
-      <Row style={{ height: "400px" }}>
+      <Row style={{ height: "400px", marginTop: "90px" }}>
         <Col lg={6}>
-          <div style={{ marginTop: "40px" }}>
-            <b>
+          <div class="hi"style={{ marginTop: "20px"}}>
+            <b style={{fontSize:"20px"}}>오사카<br></br>
               오사카는 도쿄와 더불어 일본의 2대 교통중심지이며, 일본 혼슈 서부에 위치한
               세토나이카이의 동쪽, 오사카만에 면한 도시입니다. 신칸센을 비롯하여 철도 지하철 도로가
               발달하여 교토와 나라, 고베등 인근의 도시 및 관광지를 연결하고 있습니다. 오사카에는
@@ -36,9 +38,9 @@ const Osaka = () => {
         </Col>
         <Col lg={6}>
           <img
-            src={process.env.PUBLIC_URL + "/image/arthotel.jpg"}
-            width="440px"
-            height="70%"
+            src={process.env.PUBLIC_URL + "/image2/background1.jpg"}
+            width="90%"
+            height="60%"
             data-reactied="266"
             style={{
               borderRadius: "10px 100px / 120px",
@@ -49,9 +51,9 @@ const Osaka = () => {
       <Row style={{ height: "400px" }}>
         <Col lg={6}>
         <img
-            src={process.env.PUBLIC_URL + "/image/arthotel.jpg"}
-            width="440px"
-            height="70%"
+            src={process.env.PUBLIC_URL + "/image2/background3.jpg"}
+            width="90%"
+            height="65%"
             data-reactied="266"
             style={{ borderRadius: "10px 100px / 120px" }}
           />
@@ -59,7 +61,7 @@ const Osaka = () => {
         <Col lg={6}>
           
           <div>
-            <b>
+            <b style={{fontSize:"20px"}}>
               〜활기차고 웃음 짓게 해주는 곳, 오사카〜<br></br> 오사카는 서일본의 중심적 도시로 고층
               빌딩과 상업 시설이 즐비하면서도 예로부터 경제, 문화의 중심지로서 번영했던 역사를 이어
               오면서 고분 등의 역사적 장소나 건조물이 기색 짙게 남아 있는 곳입니다. 그리고 가미가카
@@ -74,7 +76,7 @@ const Osaka = () => {
       <Row style={{ height: "400px" }}>
         <Col lg={6}>
           <div>
-            <b>
+            <b style={{fontSize:"20px"}}>
               〜세상의 맛있는 것들이 한데 모여 있는 곳, 오사카〜 예로부터 ’천하의 부엌’이라 불려
               오듯이 일본 전국의 특산품들이 모이는 맛의 중심지로서 번영해 온 배경에서부터, 오사카의
               식문화는 발전을 거듭해 일본 요리에서는 빼놓을 수 없는 ‘다시 (육수)’ 문화는 오사카에서
@@ -87,7 +89,7 @@ const Osaka = () => {
         </Col>
         <Col lg={6}>
           <img
-            src={process.env.PUBLIC_URL + "/image/arthotel.jpg"}
+            src={process.env.PUBLIC_URL + "/image2/background4.jpg"}
             width="440px"
             height="70%"
             data-reactied="266"
@@ -98,17 +100,18 @@ const Osaka = () => {
       <Row style={{ height: "400px" }}>
         <Col lg={6}>
         <img
-            src={process.env.PUBLIC_URL + "/image/arthotel.jpg"}
+            src={process.env.PUBLIC_URL + "/image2/back.jpg"}
             width="440px"
             height="70%"
-            data-reactied="266"
-            style={{ borderRadius: "10px 100px / 120px" }}
+            style={{
+              borderRadius: "10px 100px / 120px"
+            }}
           />
         </Col>
         <Col lg={6}>
           
           <div>
-            <b>
+            <b style={{fontSize:"20px"}}>
               〜봐도 좋고 해도 좋고! 스포츠의 고장, 오사카〜
               <br></br>야구나 축구, 농구... 오사카에는 다양한 프로 스포츠 팀이 있어서 박력 넘치는
               경기가 언제나 어디서나 열립니다. 시즌 중에 펼쳐지는 프로 선수들의 뜨거운 경기를
@@ -126,7 +129,7 @@ const Osaka = () => {
           //   paddingRight: "5em",
           // }}
           >
-            <b>
+            <b style={{fontSize:"20px"}}>
               〜서쪽 대중 문화의 성지, 오사카〜<br></br> 일본 3대 전기의 고장 중 하나인 오사카
               닛폰바시는 애니메이션, 만화, 게임 등 일본 특유의 대중 문화가 밀집한 장소. 일본
               최대급의 코스프레 페스티벌 ‘닛폰바시 스트리트 페스타’는 매년 간사이 지역뿐만 아니라
@@ -137,8 +140,8 @@ const Osaka = () => {
         </Col>
         <Col lg={6}>
           <img
-            src={process.env.PUBLIC_URL + "/image/arthotel.jpg"}
-            width="440px"
+            src={process.env.PUBLIC_URL + "/image2/back1.jpg"}
+            width="70%"
             height="70%"
             data-reactied="266"
             style={{ borderRadius: "10px 100px / 120px" }}
