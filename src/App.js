@@ -8,6 +8,7 @@ import Login from "./screens/login";
 import Talk from "./screens/Talk";
 import Signup from "./screens/Signup";
 import Osaka from "./screens/Osaka";
+import Festival from "./screens/Festival";
 import Osakasang from "./screens/place/Osakasang";
 import Aveno from "./screens/place/Aveno";
 import Umeda from "./screens/place/Umeda";
@@ -86,6 +87,7 @@ function App() {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Osaka" element={<Osaka />} />
         <Route path="/Osakasang" element={<Osakasang />} />
+        <Route path="/Festival" element={<Festival />} />
         <Route path="/Aveno" element={<Aveno />} />
         <Route path="/Umeda" element={<Umeda />} />
         <Route path="/Heijoen" element={<Heijoen />} />
