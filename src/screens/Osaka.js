@@ -48,12 +48,17 @@ const Osaka = () => {
       </Row>
       <Row style={{ height: "400px" }}>
         <Col lg={6}>
-          <div
-          // style={{
-          //   paddingLeft: "5em",
-          //   paddingRight: "5em",
-          // }}
-          >
+        <img
+            src={process.env.PUBLIC_URL + "/image/arthotel.jpg"}
+            width="440px"
+            height="70%"
+            data-reactied="266"
+            style={{ borderRadius: "10px 100px / 120px" }}
+          />
+        </Col>
+        <Col lg={6}>
+          
+          <div>
             <b>
               〜활기차고 웃음 짓게 해주는 곳, 오사카〜<br></br> 오사카는 서일본의 중심적 도시로 고층
               빌딩과 상업 시설이 즐비하면서도 예로부터 경제, 문화의 중심지로서 번영했던 역사를 이어
@@ -65,24 +70,10 @@ const Osaka = () => {
             </b>
           </div>
         </Col>
-        <Col lg={6}>
-          <img
-            src={process.env.PUBLIC_URL + "/image/arthotel.jpg"}
-            width="440px"
-            height="70%"
-            data-reactied="266"
-            style={{ borderRadius: "10px 100px / 120px" }}
-          />
-        </Col>
       </Row>
       <Row style={{ height: "400px" }}>
         <Col lg={6}>
-          <div
-          // style={{
-          //   paddingLeft: "5em",
-          //   paddingRight: "5em",
-          // }}
-          >
+          <div>
             <b>
               〜세상의 맛있는 것들이 한데 모여 있는 곳, 오사카〜 예로부터 ’천하의 부엌’이라 불려
               오듯이 일본 전국의 특산품들이 모이는 맛의 중심지로서 번영해 온 배경에서부터, 오사카의
@@ -106,12 +97,17 @@ const Osaka = () => {
       </Row>
       <Row style={{ height: "400px" }}>
         <Col lg={6}>
-          <div
-          // style={{
-          //   paddingLeft: "5em",
-          //   paddingRight: "5em",
-          // }}
-          >
+        <img
+            src={process.env.PUBLIC_URL + "/image/arthotel.jpg"}
+            width="440px"
+            height="70%"
+            data-reactied="266"
+            style={{ borderRadius: "10px 100px / 120px" }}
+          />
+        </Col>
+        <Col lg={6}>
+          
+          <div>
             <b>
               〜봐도 좋고 해도 좋고! 스포츠의 고장, 오사카〜
               <br></br>야구나 축구, 농구... 오사카에는 다양한 프로 스포츠 팀이 있어서 박력 넘치는
@@ -120,15 +116,6 @@ const Osaka = () => {
               도시 한가운데서 마음껏 즐길 수 있습니다.
             </b>
           </div>
-        </Col>
-        <Col lg={6}>
-          <img
-            src={process.env.PUBLIC_URL + "/image/arthotel.jpg"}
-            width="440px"
-            height="70%"
-            data-reactied="266"
-            style={{ borderRadius: "10px 100px / 120px" }}
-          />
         </Col>
       </Row>
       <Row style={{ height: "400px" }}>
