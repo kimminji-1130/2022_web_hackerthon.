@@ -9,22 +9,28 @@ import Talk from "./screens/Talk";
 import Signup from "./screens/Signup";
 import Osaka from "./screens/Osaka";
 import Festival from "./screens/Festival";
+// place
 import Osakasang from "./screens/place/Osakasang";
 import Depojan from "./screens/place/depojan";
 import Sitennoji from "./screens/place/sitennoji";
 import Universal from "./screens/place/Universal";
 import Aveno from "./screens/place/Aveno";
 import Umeda from "./screens/place/Umeda";
+import Jivri from "./screens/place/Jivri";
+// food
 import Moeyomenske from "./screens/food/Moeyomenske";
 import Heijoen from "./screens/food/Heijoen";
 import Motomura from "./screens/food/Motomura";
+// hotel
 import Arthotel from "./screens/hotel/Arthotel";
 import Ivis from "./screens/hotel/Ivis";
 import Yahmatoyah from "./screens/hotel/Yahmatoyah";
+//festival
 import Omiztori from "./screens/festival/Omiztori";
 import Sacurano from "./screens/festival/Sacurano";
 import Smiyorimachuri from "./screens/festival/Smiyorimachuri";
 import Universalport from "./screens/festival/Universalport";
+//gita
 import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
 import Test from "./screens/Test";
@@ -89,12 +95,14 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Osaka" element={<Osaka />} />
+        {/* place */}
         <Route path="/Osakasang" element={<Osakasang />} />
         <Route path="/depojan" element={<Depojan />} />
         <Route path="/sitennoji" element={<Sitennoji />} />
         <Route path="/Universal" element={<Universal />} />
         <Route path="/Festival" element={<Festival />} />
         <Route path="/Aveno" element={<Aveno />} />
+        <Route path="/Jivri" element={<Jivri />} />
         <Route path="/Umeda" element={<Umeda />} />
         <Route path="/Heijoen" element={<Heijoen />} />
         <Route path="/Moeyomenske" element={<Moeyomenske />} />

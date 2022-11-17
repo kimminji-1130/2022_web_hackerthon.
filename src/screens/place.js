@@ -134,7 +134,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/depojan" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -147,7 +147,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/depojan" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -171,7 +171,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/sitennoji" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -184,7 +184,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/sitennoji" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -218,7 +218,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/Umeda" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -231,7 +231,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/Umeda" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -259,7 +259,7 @@ function ResponsiveAutoExample() {
                         </Col>
 
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/jivri" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={process.env.PUBLIC_URL + "/image/img3.jpg"}
                                 width="300"
@@ -269,7 +269,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/jivri" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -301,7 +301,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/doyokuni" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -314,7 +314,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/doyokuni" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -342,7 +342,7 @@ function ResponsiveAutoExample() {
                         </Col>
 
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/gaiukan" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -355,7 +355,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/gaiukan" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -390,7 +390,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/Aveno" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -403,7 +403,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/Aveno" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -429,7 +429,7 @@ function ResponsiveAutoExample() {
                         </Col>
 
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/gumon" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL + "/image/gumon.jpg"
@@ -441,7 +441,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/gumon" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -474,7 +474,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/dendentaun" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -487,7 +487,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/dendentaun" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -514,7 +514,7 @@ function ResponsiveAutoExample() {
                         </Col>
 
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/ssiyositai" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -527,7 +527,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                         </Col>
                         <Col>
-                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="/ssiyositai" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
