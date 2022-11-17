@@ -65,7 +65,7 @@ class IntroduceOsaka extends React.Component {
 
                                         <a href="place">
                                             <Button
-                                                variant="outline-info"
+                                                variant="outline-dark"
                                                 style={{
                                                     width: "70%",
                                                     height: "25%",
@@ -82,7 +82,7 @@ class IntroduceOsaka extends React.Component {
                                     style={{ width: "50%", height: "50%" }}
                                 >
                                     <Image
-                                        src="image2/aburia.png"
+                                        src="/image/gyukatsu.jpg"
                                         style={{
                                             padding: "5px",
                                             borderRadius: "20px",
@@ -97,7 +97,7 @@ class IntroduceOsaka extends React.Component {
 
                                         <a href="food">
                                             <Button
-                                                variant="outline-info"
+                                                variant="outline-dark"
                                                 style={{
                                                     width: "70%",
                                                     height: "25%",
@@ -131,7 +131,7 @@ class IntroduceOsaka extends React.Component {
 
                                         <a href="festival">
                                             <Button
-                                                variant="outline-info"
+                                                variant="outline-dark"
                                                 style={{
                                                     width: "70%",
                                                     height: "25%",
@@ -163,7 +163,7 @@ class IntroduceOsaka extends React.Component {
 
                                         <a href="hotel">
                                             <Button
-                                                variant="outline-info"
+                                                variant="outline-dark"
                                                 style={{
                                                     width: "70%",
                                                     height: "25%",

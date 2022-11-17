@@ -30,7 +30,7 @@ function Moeyomenske() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image/Moeyomenske.jpg"}
+            src={process.env.PUBLIC_URL + "/image/gyukatsu.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"

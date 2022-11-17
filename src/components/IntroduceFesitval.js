@@ -24,7 +24,7 @@ class IntroduceFestival extends React.Component {
                     <Row xs={1} md={2} lg={4} className="g-4">
                         <Col>
                             <Card>
-                                <Card.Img variant="top" src="image2\omiztori.jpg" />
+                                <Card.Img variant="top" src="image2\omiztori.jpg" style= {{height: "230px"}} />
                                 <Card.Body>
                                     <Card.Title>
                                     오미즈토리 마츠리
@@ -33,7 +33,7 @@ class IntroduceFestival extends React.Component {
                                     날짜 : 매년 3월 1-14일<br></br> 장소 : 도다이지
                                     </Card.Text>
                                     <Link to="/login">
-                                        <Button variant="primary">
+                                        <Button variant="outline-dark">
                                             더보기
                                         </Button>
                                     </Link>
@@ -42,7 +42,7 @@ class IntroduceFestival extends React.Component {
                         </Col>
                         <Col>
                             <Card>
-                                <Card.Img variant="top" src="image2\sacurano.jpg" />
+                                <Card.Img variant="top" src="image2\sacurano.jpg" style= {{height: "230px"}}/>
                                 <Card.Body>
                                     <Card.Title>
                                       사쿠라노 도리누케
@@ -51,7 +51,7 @@ class IntroduceFestival extends React.Component {
                                     날짜 : 매년 4월 초에서 중순<br></br>장소 : 오사카 조폐 박물관 구내
                                     </Card.Text>
                                     <Link to="/login">
-                                        <Button variant="primary">
+                                        <Button variant="outline-dark">
                                             더보기
                                         </Button>
                                     </Link>
@@ -60,7 +60,7 @@ class IntroduceFestival extends React.Component {
                         </Col>
                         <Col>
                             <Card>
-                                <Card.Img variant="top" src="image2\smiyorimachuri.jpg" />
+                                <Card.Img variant="top" src="image2\smiyorimachuri.jpg" style= {{height: "230px"}}/>
                                 <Card.Body>
                                     <Card.Title>
                                     스미요시 마츠리
@@ -69,7 +69,7 @@ class IntroduceFestival extends React.Component {
                                     날짜 : 매년 7월 30일 - 8월 1일<br></br>장소 : 스미요시 신사
                                     </Card.Text>
                                     <Link to="/login">
-                                        <Button variant="primary">
+                                        <Button variant="outline-dark">
                                             더보기
                                         </Button>
                                     </Link>
@@ -78,16 +78,16 @@ class IntroduceFestival extends React.Component {
                         </Col>
                         <Col>
                             <Card>
-                                <Card.Img variant="top" src="image2\chrismas.jpg" />
+                                <Card.Img variant="top" src="image2\chrismas.jpg" style= {{height: "230px"}}/>
                                 <Card.Body>
                                     <Card.Title>
                                     유니버설 크리스마스 축제
                                     </Card.Title>
                                     <Card.Text>
-                                    날짜 : 2022년 11월 11일 - 2023년 1월 9일<br></br>장소 : 유니버설 스튜디오 재팬
+                                    날짜 : 11월 11일 - 1월 9일<br></br>장소 : 유니버설 스튜디오 재팬
                                     </Card.Text>
                                     <Link to="/login">
-                                        <Button variant="primary">
+                                        <Button variant="outline-dark">
                                             더보기
                                         </Button>
                                     </Link>
