@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaStar } from "react-icons/fa";
 import Carousel from "react-bootstrap/Carousel";
+import "./festival.css";
 
 const colors = {
   orange: "#FFBA5A",
@@ -30,7 +31,7 @@ function Sacurano() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image/gyukatsu.jpg"}
+            src={process.env.PUBLIC_URL + "/image2/Sacurano.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -73,15 +74,18 @@ function Sacurano() {
               marginTop: "10px",
             }}
           >
-            <b>모토무라 난마점</b>
+            <b>야마나카다니</b>
           </h1>
 
-          <div style={{ paddingTop: "40px" }}>일본 〒542-0076 Osaka, Chuo Ward, Nanba, 3 Chome-3-1 地下一階 スガタビル</div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6643-3313</div>
-          <div style={{ paddingTop: "20px" }}>규카츠 130g : 1400엔 260g : 2200엔 130g : 추가는 800엔</div>
-          <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>
-            영업시간: 11:00 ~ 22:00 (화요일 휴무, 일요일만 16시 마감)
+          <div style={{ paddingTop: "40px", fontSize: "20px", lineHeight: "48px" }}>
+          <b>【예년의 절정시기】3월 하순~4월 초순</b><br></br>
+              【하나카이도 야마나카다니 벚꽃축제】<br></br>
+              개최장소：완파쿠 왕국과 그 주변<br></br>
+              개최기간 (일시)：예년은 4월 첫째 주 일요일<br></br>
+              ※3월 말~4월 초순의 일몰~22：00 라이트업<br></br>
+              입장료：무료<br></br>
+              문의： 072-471-5678 (한난시청 지역활력창조과)<br></br>
+            
           </div>
         </Col>
       </Row>
@@ -90,12 +94,13 @@ function Sacurano() {
           <h3 style={{ paddingTop: "50px" }}>
             <b>설명</b>
           </h3>
-          <div style={{ paddingTop: "20px", fontSize: "20px", lineHeight: "50px" }}>
-            규카츠(牛カツ)는 돈가스의 소고기 버전으로 돼지고기가 아닌 쇠고기로 만들어서 빵가루
-            옷을 입히고 튀긴 음식인데, 한참 규카츠가 인기있던 2016~2017년 무렵엔, 한국에서도 
-            일본식 규카츠 전문점을 어렵지 않게 볼 수 있었습니다.
-            튀김옷만 바싹 익히고, 고기는 거의 익지 않은 레어상태로 나와서 불판에 직접 구워먹으면 
-            되는데 굽기에 따라 식감과 맛이 달라지는 게 규카츠의 가장 큰 매력입니다. 
+          <div style={{ paddingTop: "20px", fontSize: "20px", lineHeight: "35px" }}>
+            야마나카다니 지구는 에도시대(1603~1867년)에는 역참마을 ‘야마나카슈쿠’로 번영, 온천가로도 명성을 날리던 곳이다.<br></br>
+            과거의 활기를 되찾기 위해 1965년경부터 야마나카 강의 양 기슭 1km에 걸쳐 약 1,000그루의 벚나무를 심어 멋진 가로수길을 조성했다.<br></br>
+            지금은 상춘객들의 발길이 끊이지 않는 벚꽃명소로 거듭났다.
+            벚꽃이 절정을 맞을 무렵 개최되는 ‘하나카이도 야마나카다니 벚꽃축제’에서는 전통 북 연주인 ‘랏코’와 전통 춤 ‘요사코이 오도리 등 다양한 볼거리가 있고, 라이트업을 한 환상적인 밤벚꽃도 함께 즐길 수 있다.<br></br>
+            야마나카슈쿠의 한 켠에 위치한 사찰 지후쿠지는 경내를 뒤덮을 듯 뻗은 가지가 눈길을 끄는 시다레자쿠라가 명물이다.<br></br>
+            입장료가 무료인 완파쿠 왕국(시영공원)도 추천스팟 중 하나다.
           </div>
         </Col>
         <Col lg={7}>
@@ -103,7 +108,7 @@ function Sacurano() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.528463513408!2d135.50196169999998!3d34.66660960000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e76b53bc67e9%3A0xc718ee6b423ad7d3!2z6rec7Lm07LigIOuqqO2GoOustOudvCDrgpzrsJTsoJA!5e0!3m2!1sko!2skr!4v1668591091610!5m2!1sko!2skr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3294.9877724377916!2d135.26868735029225!3d34.325330780436985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000b5d75c7640eb%3A0xb30b46e510c653c7!2z7JmE7YyM7L-gIOyZleq1rQ!5e0!3m2!1sko!2skr!4v1668690026753!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -117,107 +122,6 @@ function Sacurano() {
           </div>
         </Col>
       </Row>
-      <Carousel>
-        <Carousel.Item>
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          >
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "image2/ichran.jpg"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-              <div className="banner-txt"></div>
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image/chibo.jpg"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image/Sacurano.jpg"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/torihachi.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-          </Row>
-
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          ></Row>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          >
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/yahmakarayah.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/heivoen.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/nakatani.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/hukutaro.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-          </Row>
-
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          ></Row>
-        </Carousel.Item>
-      </Carousel>
     </Container>
   );
 }

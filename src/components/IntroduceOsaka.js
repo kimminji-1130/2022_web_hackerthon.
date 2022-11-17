@@ -116,7 +116,7 @@ class IntroduceOsaka extends React.Component {
                                     style={{ width: "50%", height: "50%" }}
                                 >
                                     <Image
-                                        src="image2/aburia.png"
+                                        src="/image2/omiztori.jpg"
                                         style={{
                                             padding: "5px",
                                             borderRadius: "20px",
@@ -148,7 +148,7 @@ class IntroduceOsaka extends React.Component {
                                     style={{ width: "50%", height: "50%" }}
                                 >
                                     <Image
-                                        src="image2/aburia.png"
+                                        src="image\arthotel.jpg"
                                         style={{
                                             padding: "5px",
                                             borderRadius: "20px",

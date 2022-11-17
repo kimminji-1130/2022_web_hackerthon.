@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaStar } from "react-icons/fa";
 import Carousel from "react-bootstrap/Carousel";
+import "./festival.css";
 
 const colors = {
   orange: "#FFBA5A",
@@ -30,7 +31,7 @@ function Universalport() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "image2/universalport.jpg"}
+            src={process.env.PUBLIC_URL + "image2/chrismas.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -73,15 +74,13 @@ function Universalport() {
               marginTop: "10px",
             }}
           >
-            <b>모토무라 난마점</b>
+            <b>유니버설 크리스마스 축제</b>
           </h1>
 
-          <div style={{ paddingTop: "40px" }}>일본 〒542-0076 Osaka, Chuo Ward, Nanba, 3 Chome-3-1 地下一階 スガタビル</div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6643-3313</div>
-          <div style={{ paddingTop: "20px" }}>규카츠 130g : 1400엔 260g : 2200엔 130g : 추가는 800엔</div>
-          <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>
-            영업시간: 11:00 ~ 22:00 (화요일 휴무, 일요일만 16시 마감)
+          <div style={{ paddingTop: "40px", fontSize: "20px", lineHeight: "43px" }}>
+            Wizarding World의 생각에 목구멍에 덩어리가 생기는 해리포터 이야기에 너무 매혹되면 크리스마스 휴가 동안 조직을 방문해야 할 수 있습니다.<br></br>
+            유니버설은 2017 년 Harry Potter ™의 Wizarding World에서 크리스마스라는 새로운 휴가 경험을 선보였습니다.<br></br>
+            낮에는 상록수와 장식을 볼 수 있습니다. 홀리데이 개구리 합창단의 공연도보실 수 있습니다.<br></br>
           </div>
         </Col>
       </Row>
@@ -90,12 +89,10 @@ function Universalport() {
           <h3 style={{ paddingTop: "50px" }}>
             <b>설명</b>
           </h3>
-          <div style={{ paddingTop: "20px", fontSize: "20px", lineHeight: "50px" }}>
-            규카츠(牛カツ)는 돈가스의 소고기 버전으로 돼지고기가 아닌 쇠고기로 만들어서 빵가루
-            옷을 입히고 튀긴 음식인데, 한참 규카츠가 인기있던 2016~2017년 무렵엔, 한국에서도 
-            일본식 규카츠 전문점을 어렵지 않게 볼 수 있었습니다.
-            튀김옷만 바싹 익히고, 고기는 거의 익지 않은 레어상태로 나와서 불판에 직접 구워먹으면 
-            되는데 굽기에 따라 식감과 맛이 달라지는 게 규카츠의 가장 큰 매력입니다. 
+          <div style={{ paddingTop: "20px", fontSize: "20px", lineHeight: "43px" }}>
+          The Three Broomsticks ™에서는 휴가 메뉴를 찾을 수 있습니다. 웜 버터 비어는 표준 콜드 버전과 함께 메뉴에 표시됩니다.
+하루가 끝나면 마술이 시작됩니다. 그 때 무슨 일이 일어나면 연휴 기간에 방문하기에 충분한 이유가됩니다. 호그와트 (Hogwarts)의 가장 재능있는 교수와 학생들의 시각적 인 마법의 묘기로 성은 살아납니다. 가수는 성벽을 가리 킵니다. 떠 다니는 양초가 나타나고 올빼미가 지나간다. 눈사람은 산허리에 나타납니다. Weasley의 차가 평소와 같이 달려가는 불운 한 희생자 일뿐입니다. 성벽은 Boggarts Bangers에서 Decoy Detonators에 이르기까지 모든 것을 광고하는 거대한 광고판으로 바뀝니다.
+
           </div>
         </Col>
         <Col lg={7}>
@@ -103,7 +100,7 @@ function Universalport() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.528463513408!2d135.50196169999998!3d34.66660960000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e76b53bc67e9%3A0xc718ee6b423ad7d3!2z6rec7Lm07LigIOuqqO2GoOustOudvCDrgpzrsJTsoJA!5e0!3m2!1sko!2skr!4v1668591091610!5m2!1sko!2skr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13126.298839680852!2d135.4323382!3d34.665442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d083d5e25d%3A0x3605fe25303252aa!2z7Jyg64uI67KE7ISkIOyKpO2KnOuUlOyYpCDsnqztjKw!5e0!3m2!1sko!2skr!4v1668689725154!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -117,107 +114,6 @@ function Universalport() {
           </div>
         </Col>
       </Row>
-      <Carousel>
-        <Carousel.Item>
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          >
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "image2/ichran.jpg"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-              <div className="banner-txt"></div>
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image/chibo.jpg"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image/Universalport.jpg"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/torihachi.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-          </Row>
-
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          ></Row>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          >
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/yahmakarayah.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/heivoen.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/nakatani.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/hukutaro.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-          </Row>
-
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          ></Row>
-        </Carousel.Item>
-      </Carousel>
     </Container>
   );
 }

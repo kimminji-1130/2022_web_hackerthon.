@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaStar } from "react-icons/fa";
 import Carousel from "react-bootstrap/Carousel";
+import "./festival.css";
 
 const colors = {
   orange: "#FFBA5A",
@@ -30,7 +31,7 @@ function Smiyorimachuri() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image2/smiyorimachuri.jpg"}
+            src={process.env.PUBLIC_URL + "/image2/Smiyorimachuri.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -73,15 +74,13 @@ function Smiyorimachuri() {
               marginTop: "10px",
             }}
           >
-            <b>모토무라 난마점</b>
+            <b>스미요시 마츠리</b>
           </h1>
 
-          <div style={{ paddingTop: "40px" }}>일본 〒542-0076 Osaka, Chuo Ward, Nanba, 3 Chome-3-1 地下一階 スガタビル</div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6643-3313</div>
-          <div style={{ paddingTop: "20px" }}>규카츠 130g : 1400엔 260g : 2200엔 130g : 추가는 800엔</div>
-          <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>
-            영업시간: 11:00 ~ 22:00 (화요일 휴무, 일요일만 16시 마감)
+          <div style={{ paddingTop: "40px", fontSize: "20px", lineHeight: "48px" }}>
+            오사카의 여름을 대미로 장식하는 스미요시 마츠리.<br></br>
+            3일간에 걸쳐 다양한 의식 행사를 하는 등 성대하게 진행된다.<br></br>
+            특히, 1,200명의 순행하는 “미코시 행렬”이 하이라이트!
           </div>
         </Col>
       </Row>
@@ -90,12 +89,10 @@ function Smiyorimachuri() {
           <h3 style={{ paddingTop: "50px" }}>
             <b>설명</b>
           </h3>
-          <div style={{ paddingTop: "20px", fontSize: "20px", lineHeight: "50px" }}>
-            규카츠(牛カツ)는 돈가스의 소고기 버전으로 돼지고기가 아닌 쇠고기로 만들어서 빵가루
-            옷을 입히고 튀긴 음식인데, 한참 규카츠가 인기있던 2016~2017년 무렵엔, 한국에서도 
-            일본식 규카츠 전문점을 어렵지 않게 볼 수 있었습니다.
-            튀김옷만 바싹 익히고, 고기는 거의 익지 않은 레어상태로 나와서 불판에 직접 구워먹으면 
-            되는데 굽기에 따라 식감과 맛이 달라지는 게 규카츠의 가장 큰 매력입니다. 
+          <div style={{ paddingTop: "20px", fontSize: "20px", lineHeight: "43px" }}>
+            스미요시대사 신사는 일본 전국에 2300개 있는 스미요시 신사의 총본사로, 셋쓰노쿠니 지방 제일의 신사로서 추앙을 받아 연초에는 200만 명 이상의 참배자들이 방문합니다.<br></br>
+            스미요시 축제 7/30~8/1 오사카의 여름축제를 마무리하는 축제로, 3일간에 걸쳐 제사와 봉납행사가 성대하게 거행됩니다.<br></br>
+            7월 31일에 열리는 여름 넘기기 목욕재계 행사는 오사카부의 무형문화재로 지정되어 있습니다. (※폐문 시간: 22:00까지 연장)
           </div>
         </Col>
         <Col lg={7}>
@@ -103,7 +100,7 @@ function Smiyorimachuri() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.528463513408!2d135.50196169999998!3d34.66660960000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e76b53bc67e9%3A0xc718ee6b423ad7d3!2z6rec7Lm07LigIOuqqO2GoOustOudvCDrgpzrsJTsoJA!5e0!3m2!1sko!2skr!4v1668591091610!5m2!1sko!2skr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2189.3598790933256!2d135.44024986796356!3d34.69677100806486!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000ef51f1bdf735%3A0xe05f702edad4c8d3!2z7Iqk66-47JqU7IucIOyLoOyCrA!5e0!3m2!1sko!2skr!4v1668690278335!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -117,107 +114,6 @@ function Smiyorimachuri() {
           </div>
         </Col>
       </Row>
-      <Carousel>
-        <Carousel.Item>
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          >
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "image2/ichran.jpg"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-              <div className="banner-txt"></div>
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image/chibo.jpg"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image/Smiyorimachuri.jpg"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/torihachi.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-          </Row>
-
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          ></Row>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          >
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/yahmakarayah.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/heivoen.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/nakatani.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-            <Col>
-              <img
-                src={process.env.PUBLIC_URL + "/image2/hukutaro.png"}
-                width="300"
-                height="250"
-                data-reactied="266>"
-              />
-            </Col>
-          </Row>
-
-          <Row
-            style={{
-              marginTop: "20px",
-              marginBottom: "20px",
-            }}
-          ></Row>
-        </Carousel.Item>
-      </Carousel>
     </Container>
   );
 }
