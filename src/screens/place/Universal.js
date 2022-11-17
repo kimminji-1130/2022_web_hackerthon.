@@ -9,7 +9,7 @@ const colors = {
   grey: "#a9a9a9",
 };
 
-function universalport() {
+function Universal() {
   const [currentValue, setCurrentValue] = useState(0);
   const [hoverValue, setHoverValue] = useState(undefined);
   const stars = Array(5).fill(0);
@@ -73,7 +73,7 @@ function universalport() {
               marginTop: "10px",
             }}
           >
-            <b>오사카성</b>
+            <b>유니버셜 스튜디오</b>
           </h1>
 
           <div style={{ paddingTop: "40px" }}>
@@ -256,4 +256,4 @@ const styles = {
   },
 };
 
-export default universalport;
+export default Universal;
