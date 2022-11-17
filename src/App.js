@@ -10,6 +10,9 @@ import Signup from "./screens/Signup";
 import Osaka from "./screens/Osaka";
 import Festival from "./screens/Festival";
 import Osakasang from "./screens/place/Osakasang";
+import Depojan from "./screens/place/depojan";
+import Sitennoji from "./screens/place/sitennoji";
+import Universal from "./screens/place/Universal";
 import Aveno from "./screens/place/Aveno";
 import Umeda from "./screens/place/Umeda";
 import Moeyomenske from "./screens/food/Moeyomenske";
@@ -87,6 +90,9 @@ function App() {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Osaka" element={<Osaka />} />
         <Route path="/Osakasang" element={<Osakasang />} />
+        <Route path="/depojan" element={<Depojan />} />
+        <Route path="/sitennoji" element={<Sitennoji />} />
+        <Route path="/Universal" element={<Universal />} />
         <Route path="/Festival" element={<Festival />} />
         <Route path="/Aveno" element={<Aveno />} />
         <Route path="/Umeda" element={<Umeda />} />

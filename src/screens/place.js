@@ -80,6 +80,7 @@ function ResponsiveAutoExample() {
                         </Col>
 
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL + "/image/studio.jpg"
@@ -87,9 +88,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -109,7 +112,8 @@ function ResponsiveAutoExample() {
                                 유니버셜 스튜디오 재팬은 여러 유니버설 스튜디오
                                 놀이공원중 하나로 일본 오사카시에 있으며, 2001년
                                 3월 31일...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
                     </Row>
 
@@ -119,6 +123,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -127,9 +132,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -149,10 +156,11 @@ function ResponsiveAutoExample() {
                                 높이 112.5m, 직경 100m의 대규모 관람차로,
                                 오사카는 물론, 간사이 전체 풍경을 한눈에 조망할
                                 수 있는 인기 어트랙션이다...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
                         <Col>
-                            {" "}
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -161,9 +169,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -183,7 +193,8 @@ function ResponsiveAutoExample() {
                                 지금으로부터 1400년 이상 이전, 593년에 쇼토쿠
                                 태자(聖徳太子)가 건립한 시텐노지. 일본 불교
                                 최초의 관궁사로 건립 이유가 ‘일본 서기'...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
                     </Row>
                 </Carousel.Item>
@@ -196,6 +207,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -204,9 +216,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -229,18 +243,22 @@ function ResponsiveAutoExample() {
                             </div>
                             <div>
                                 일본에서는 수많은 영화의 소설 속에서...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
 
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={process.env.PUBLIC_URL + "/image/img3.jpg"}
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -260,7 +278,8 @@ function ResponsiveAutoExample() {
                             >
                                 정문에는 하울의 움직이는 성과 같은 19세기 말
                                 공상과학적 요소를 채용한 엘리베이터...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
                     </Row>
 
@@ -271,6 +290,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -279,9 +299,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -302,11 +324,14 @@ function ResponsiveAutoExample() {
                                 긴조를 지나 조금 더 내려오면 절이 있습니다.
                                 도요토미 히데요시를 모시는 절입니다. 오사카성을
                                 세운 토요토미 히데요시, 그의 아들 히데요리, 그의
-                                동생 히데나가를...{" "}
-                            </div>
+                                    동생 히데나가를...{" "}
+                                    
+                                </div>
+                                </Link>
                         </Col>
 
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -315,9 +340,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -338,7 +365,8 @@ function ResponsiveAutoExample() {
                                 가운데 하나이며 독특한 전시 방법이 세계적으로
                                 유명합니다. 가이유칸에서는 자연환경을 재현하여
                                 환태평양...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
                     </Row>
                 </Carousel.Item>
@@ -351,6 +379,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -359,9 +388,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -382,10 +413,12 @@ function ResponsiveAutoExample() {
                                 유명한 우메다 공중공원을 제치고 오사카의 새로운
                                 랜드마크가 된 하루카스는 새로운 랜드마크가 된
                                 하루카스 300...{" "}
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
 
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL + "/image/gumon.jpg"
@@ -393,9 +426,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -416,7 +451,8 @@ function ResponsiveAutoExample() {
                                 닛폰바시 근처에 위치하고 있습니다. 약 580미터의
                                 아케이드 상가에 수산물점, 청과점, 정육점, 제과점
                                 등 약 170개의 ...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
                     </Row>
 
@@ -427,6 +463,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -435,9 +472,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -459,10 +498,12 @@ function ResponsiveAutoExample() {
                                 도요토미 히데요시를 모시는 절입니다. 오사카성을
                                 세운 토요토미 히데요시, 그의 아들 히데요리, 그의
                                 동생 히데나가를...{" "}
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
 
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
@@ -471,9 +512,11 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Universal" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -495,7 +538,8 @@ function ResponsiveAutoExample() {
                                 바다의 신, 고사의 신으로 옛날부터 외교 / 무역,
                                 산업을 수호하는 신으로 추앙받고 있습니다. 옛날
                                 책에 따르면 바닷속에서...
-                            </div>
+                                </div>
+                                </Link>
                         </Col>
                     </Row>
                 </Carousel.Item>
