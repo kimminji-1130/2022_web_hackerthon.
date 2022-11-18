@@ -13,11 +13,7 @@ function CollapsibleExample() {
             <Nav.Link href="/food">맛도리</Nav.Link>
             <Nav.Link href="/hotel">숙소</Nav.Link>
             <NavDropdown title="토론장" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">전체글보기</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                내 글 보기
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">글 쓰기</NavDropdown.Item>
+              <NavDropdown.Item href="/Talk">토론장</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 ヾ(•ω•`)o 헿
