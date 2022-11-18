@@ -9,7 +9,7 @@ const colors = {
   grey: "#a9a9a9",
 };
 
-function doyokuni() {
+function Doyokuni() {
   const [currentValue, setCurrentValue] = useState(0);
   const [hoverValue, setHoverValue] = useState(undefined);
   const stars = Array(5).fill(0);
@@ -30,7 +30,7 @@ function doyokuni() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image/doyokuni.jpg"}
+            src={process.env.PUBLIC_URL + "/image/Doyokuni.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -148,7 +148,7 @@ function doyokuni() {
 
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/doyokuni.jpg"}
+              src={process.env.PUBLIC_URL + "/image/Doyokuni.jpg"}
               width="300"
               height="250"
               data-reactied="266>"
@@ -256,4 +256,4 @@ const styles = {
   },
 };
 
-export default doyokuni;
+export default Doyokuni;

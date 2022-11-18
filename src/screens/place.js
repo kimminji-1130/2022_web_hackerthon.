@@ -301,7 +301,7 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
-                        <Link to="/doyokuni" style={{textDecoration: 'none', color: 'black' }} >
+                        <Link to="place/doyokuni" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +

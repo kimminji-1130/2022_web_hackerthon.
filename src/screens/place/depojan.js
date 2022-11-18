@@ -9,7 +9,7 @@ const colors = {
   grey: "#a9a9a9",
 };
 
-function depojan() {
+function Depojan() {
   const [currentValue, setCurrentValue] = useState(0);
   const [hoverValue, setHoverValue] = useState(undefined);
   const stars = Array(5).fill(0);
@@ -30,7 +30,7 @@ function depojan() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image/depojan.jpg"}
+            src={process.env.PUBLIC_URL + "/image/Depojan.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -73,19 +73,19 @@ function depojan() {
               marginTop: "10px",
             }}
           >
-            <b>오사카성</b>
+            <b>덴포잔</b>
           </h1>
 
           <div style={{ paddingTop: "40px" }}>
-            일본 〒540-0002 Osaka, Chuo Ward, Osakajo, １番１号
+          1 Chome-1-10 Kaigandori, Minato Ward, Osaka, 552-0022 일본
           </div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6941-3044</div>
-          <div style={{ paddingTop: "20px" }}>성 종류: 아즈키-모모야마 양식의 성</div>
+          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6576-6222</div>
+          <div style={{ paddingTop: "20px" }}>높이: 112m</div>
           <div style={{ paddingTop: "20px" }}>
-            입장료: 성인: 600엔, 만 15세 이하 어린이는 무료입니다.
+            입장료: 성인: 800엔(주유패스 소지시, 탑승 무료)
           </div>
-          <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>성내 박물관 영업시간: am 9:00 ~ pm 17:00</div>
+          <div style={{ paddingTop: "20px" }}>주차공간: 있음</div>
+          <div style={{ paddingTop: "20px" }}>영업시간: am 11:00 ~ pm 21:00</div>
         </Col>
       </Row>
       <Row>
@@ -94,11 +94,10 @@ function depojan() {
             <b>설명</b>
           </h3>
           <div style={{ paddingTop: "20px" , fontSize:"20px" , lineHeight: "50px"}}>
-            일본에서는 수많은 영화의 소설 속에서 각색되는 도요토미 히데요시의 오사카성. 요새입니다.
-            해자를 깊이 파서 적이 쉽사리 넘어 들어올 수 없게하고 높은 누각을 지어 적의 침입을 빠르게
-            알아낼 수 있도록 하였습니다. 1583년 히데요시가 지어올린 이 성은 5층의
-            데슈카쿠(천수각)에, 기와까지 히데요시가 좋아하던 금박을 입혀서 당시 눈부시게 화려한
-            성이었다고 합니다.
+            높이 112.5m, 직경 100m의 대규모 관람차로, 오사카는 물론, 간사이 전체 풍경을
+            한눈에 조망할 수 있는 인기 어트랙션입니다. 다음날의 날씨에 따라 색이 바뀌는 화려한
+            조명의 야경 명소로도 알려져 있으며, 전체 곤돌라 중 8대의 전면 투명 유리 곤돌라는 아찔한
+            체험을 할 수 있는 것으로 유명해 특히 인기가 많습니다.
           </div>
         </Col>
         <Col lg={7}>
@@ -106,8 +105,7 @@ function depojan() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.750019870646!2d135.5237758151773!3d34.6862580914994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0cd5c283afd%3A0xf01d07d5ca11e41!2z7Jik7IKs7Lm0IOyEsQ!5e0!3m2!1sko!2skr!4v1668428005853!5m2!1sko!2skr"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.938004143568!2d135.42877185030315!3d34.656268580349945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e88b5561e543%3A0xfe7be2a424a0c226!2z64207Y-s7J6UIOuMgOq0gOuejOywqA!5e0!3m2!1sko!2skr!4v1668738209850!5m2!1sko!2skr" 
               width="600"
               height="450"
               allowfullscreen=""
@@ -256,4 +254,4 @@ const styles = {
   },
 };
 
-export default depojan;
+export default Depojan;

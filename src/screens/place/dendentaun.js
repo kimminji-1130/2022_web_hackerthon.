@@ -9,7 +9,7 @@ const colors = {
   grey: "#a9a9a9",
 };
 
-function dendentaun() {
+function Dendentaun() {
   const [currentValue, setCurrentValue] = useState(0);
   const [hoverValue, setHoverValue] = useState(undefined);
   const stars = Array(5).fill(0);
@@ -256,4 +256,4 @@ const styles = {
   },
 };
 
-export default dendentaun;
+export default Dendentaun;

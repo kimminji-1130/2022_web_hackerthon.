@@ -9,7 +9,7 @@ const colors = {
   grey: "#a9a9a9",
 };
 
-function gumon() {
+function Gumon() {
   const [currentValue, setCurrentValue] = useState(0);
   const [hoverValue, setHoverValue] = useState(undefined);
   const stars = Array(5).fill(0);
@@ -30,7 +30,7 @@ function gumon() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image/gumon.jpg"}
+            src={process.env.PUBLIC_URL + "/image/Gumon.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -190,7 +190,7 @@ function gumon() {
           </Col>
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/gumon.jpg"}
+              src={process.env.PUBLIC_URL + "/image/Gumon.jpg"}
               width="300"
               height="250"
               data-reactied="266>"
@@ -256,4 +256,4 @@ const styles = {
   },
 };
 
-export default gumon;
+export default Gumon;

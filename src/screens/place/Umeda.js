@@ -30,7 +30,7 @@ function Osakasang() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image/osakasang.jpg"}
+            src={process.env.PUBLIC_URL + "/image/skybuilding.png"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -73,19 +73,19 @@ function Osakasang() {
               marginTop: "10px",
             }}
           >
-            <b>오사카성</b>
+            <b>우메다 스카이 빌딩</b>
           </h1>
 
           <div style={{ paddingTop: "40px" }}>
-            일본 〒540-0002 Osaka, Chuo Ward, Osakajo, １番１号
+          1 Chome-1-88 Oyodonaka, Kita Ward, Osaka, 531-6023 일본
           </div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6941-3044</div>
-          <div style={{ paddingTop: "20px" }}>성 종류: 아즈키-모모야마 양식의 성</div>
+          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6440-3899</div>
+          <div style={{ paddingTop: "20px" }}>지상층수: 40</div>
           <div style={{ paddingTop: "20px" }}>
-            입장료: 성인: 600엔, 만 15세 이하 어린이는 무료입니다.
+          건축 양식: High-tech architecture
           </div>
-          <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>성내 박물관 영업시간: am 9:00 ~ pm 17:00</div>
+          <div style={{ paddingTop: "20px" }}>주차공간: 있음</div>
+          <div style={{ paddingTop: "20px" }}>성내 박물관 영업시간: am 9:30 ~ pm 21:30</div>
         </Col>
       </Row>
       <Row>
@@ -94,11 +94,10 @@ function Osakasang() {
             <b>설명</b>
           </h3>
           <div style={{ paddingTop: "20px" , fontSize:"20px" , lineHeight: "50px"}}>
-            일본에서는 수많은 영화의 소설 속에서 각색되는 도요토미 히데요시의 오사카성. 요새입니다.
-            해자를 깊이 파서 적이 쉽사리 넘어 들어올 수 없게하고 높은 누각을 지어 적의 침입을 빠르게
-            알아낼 수 있도록 하였습니다. 1583년 히데요시가 지어올린 이 성은 5층의
-            데슈카쿠(천수각)에, 기와까지 히데요시가 좋아하던 금박을 입혀서 당시 눈부시게 화려한
-            성이었다고 합니다.
+            설명: 이 전망대는 두 개의 우메다 스카이빌딩을 연결하는 다리이며, 360도의 파노라마 전경을 장애물 없이 볼 수 있도록
+            설계된 도너츠 형태의 지붕이 특징입니다. 멋진 광경을 즐기면서 지상 170m에서 부는 바람을 직접 느낄 수 있습니다.
+            이 전망대에서 낮에는 오사카시내뿐만 아니라 멀리 떨어진 아와지 섬도 볼 수가 있고, 밤에는 화려한 오사카의 야경을 감상할 수
+            있습니다. 빌딩 지하에는1920년대 오사카의 전통 이미지를 지닌 타키미코지라는 음식가가 있습니다.
           </div>
         </Col>
         <Col lg={7}>
@@ -106,8 +105,7 @@ function Osakasang() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.750019870646!2d135.5237758151773!3d34.6862580914994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0cd5c283afd%3A0xf01d07d5ca11e41!2z7Jik7IKs7Lm0IOyEsQ!5e0!3m2!1sko!2skr!4v1668428005853!5m2!1sko!2skr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.9957482585646!2d135.48745865030457!3d34.705287180337216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6889074276f%3A0x57c2e32670decafd!2z7Jqw66mU64ukIOyKpOy5tOydtOu5jOuUqQ!5e0!3m2!1sko!2skr!4v1668739412578!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -130,7 +128,7 @@ function Osakasang() {
         >
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/skybuilding.png"}
+              src={process.env.PUBLIC_URL + "/image/sitennoji.jpg"}
               width="300"
               height="250"
               data-reactied="266>"

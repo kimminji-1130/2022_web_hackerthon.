@@ -30,7 +30,7 @@ function Universal() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image2/universalport.jpg"}
+            src={process.env.PUBLIC_URL + "image/studio.jpg"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -77,15 +77,15 @@ function Universal() {
           </h1>
 
           <div style={{ paddingTop: "40px" }}>
-            일본 〒540-0002 Osaka, Chuo Ward, Osakajo, １番１号
+            2 Chome-1-33 Sakurajima, Konohana Ward, Osaka, 554-0031 일본
           </div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6941-3044</div>
-          <div style={{ paddingTop: "20px" }}>성 종류: 아즈키-모모야마 양식의 성</div>
+          <div style={{ paddingTop: "20px" }}>전화번호: +81 570-200-606</div>
+          <div style={{ paddingTop: "20px" }}>테마: 미국의 영화사 유니버설 스튜디오의 테마파크</div>
           <div style={{ paddingTop: "20px" }}>
-            입장료: 성인: 600엔, 만 15세 이하 어린이는 무료입니다.
+          면적: 54헥타르
           </div>
-          <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>성내 박물관 영업시간: am 9:00 ~ pm 17:00</div>
+          <div style={{ paddingTop: "20px" }}>주차공간: 있음</div>
+          <div style={{ paddingTop: "20px" }}>영업시간: am 8:30 ~ pm 22:00</div>
         </Col>
       </Row>
       <Row>
@@ -94,11 +94,12 @@ function Universal() {
             <b>설명</b>
           </h3>
           <div style={{ paddingTop: "20px" , fontSize:"20px" , lineHeight: "50px"}}>
-            일본에서는 수많은 영화의 소설 속에서 각색되는 도요토미 히데요시의 오사카성. 요새입니다.
-            해자를 깊이 파서 적이 쉽사리 넘어 들어올 수 없게하고 높은 누각을 지어 적의 침입을 빠르게
-            알아낼 수 있도록 하였습니다. 1583년 히데요시가 지어올린 이 성은 5층의
-            데슈카쿠(천수각)에, 기와까지 히데요시가 좋아하던 금박을 입혀서 당시 눈부시게 화려한
-            성이었다고 합니다.
+            유니버셜 스튜디오 재팬은 여러 유니버설 스튜디오 놀이공원중 하나로 일본 오사카시에 있으며, 2001년 3월 31일 개장했습니다.
+            이 놀이공원은 유니버설 올란도 레조트와 비슷하며 비슷한 놀이기구를 갖추고 있습니다.
+            주로 일본 내국인과 대한민국, 중화인민공화국, 중화민국 등 아시아계 여행객이 많습니다.
+            2005년 골드만삭스와 MBK파트너스가 공동으로 유니버설 스튜디오 재팬의 지분 대부분을 1조8000억원을 들여 인수했습니다.
+            개장 당시였던 2001년에 1,100만여 명이 방문했고, 이는 세계에서 가장 빨리 연방문객 1,000만 명을 돌파한 놀이공원으로 당시에 기록됐습니다.
+            그 후에는 연 평균 800만 명이 찾는 관광지로 부상했습니다.
           </div>
         </Col>
         <Col lg={7}>
@@ -106,8 +107,7 @@ function Universal() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.750019870646!2d135.5237758151773!3d34.6862580914994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0cd5c283afd%3A0xf01d07d5ca11e41!2z7Jik7IKs7Lm0IOyEsQ!5e0!3m2!1sko!2skr!4v1668428005853!5m2!1sko!2skr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13126.298839680852!2d135.4323382!3d34.665442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d083d5e25d%3A0x3605fe25303252aa!2z7Jyg64uI67KE7ISkIOyKpO2KnOuUlOyYpCDsnqztjKw!5e0!3m2!1sko!2skr!4v1668737869085!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -156,7 +156,7 @@ function Universal() {
           </Col>
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/universalport.jpg"}
+              src={process.env.PUBLIC_URL + "/image/ssiyositai.jpg"}
               width="300"
               height="250"
               data-reactied="266>"

@@ -9,14 +9,21 @@ import Talk from "./screens/Talk";
 import Signup from "./screens/Signup";
 import Osaka from "./screens/Osaka";
 import Festival from "./screens/Festival";
+import Footer from "./screens/Footer";
 // place
 import Osakasang from "./screens/place/Osakasang";
 import Depojan from "./screens/place/depojan";
 import Sitennoji from "./screens/place/sitennoji";
 import Universal from "./screens/place/Universal";
-import Aveno from "./screens/place/Aveno";
 import Umeda from "./screens/place/Umeda";
 import Jivri from "./screens/place/Jivri";
+import Doyokuni from "./screens/place/doyokuni";
+import Gaiukan from "./screens/place/gaiukan";
+import Aveno from "./screens/place/Aveno";
+import Gumon from "./screens/place/gumon";
+import Dendentaun from "./screens/place/dendentaun";
+import Ssiyositai from "./screens/place/ssiyositai";
+
 // food
 import Moeyomenske from "./screens/food/Moeyomenske";
 import Heijoen from "./screens/food/Heijoen";
@@ -107,6 +114,11 @@ function App() {
         <Route path="/Festival" element={<Festival />} />
         <Route path="/Aveno" element={<Aveno />} />
         <Route path="/Jivri" element={<Jivri />} />
+        <Route path="/doyokuni" element={<Doyokuni />} />
+        <Route path="/gaiukan" element={<Gaiukan />} />
+        <Route path="/gumon" element={<Gumon />} />
+        <Route path="/dendentaun" element={<Dendentaun />} />
+        <Route path="/ssiyositai" element={<Ssiyositai />} />
         <Route path="/Umeda" element={<Umeda />} />
         <Route path="/Heijoen" element={<Heijoen />} />
         <Route path="/Moeyomenske" element={<Moeyomenske />} />
