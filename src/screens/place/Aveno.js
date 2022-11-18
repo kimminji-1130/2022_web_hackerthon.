@@ -30,7 +30,7 @@ function Osakasang() {
       <Row>
         <Col lg={7}>
           <img
-            src={process.env.PUBLIC_URL + "/image/osakasang.jpg"}
+            src={process.env.PUBLIC_URL + "/image/harukas.png"}
             width="100%"
             height="90%"
             data-reactied="266"
@@ -73,19 +73,21 @@ function Osakasang() {
               marginTop: "10px",
             }}
           >
-            <b>오사카성</b>
+            <b>아베노 하루카스</b>
           </h1>
 
           <div style={{ paddingTop: "40px" }}>
-            일본 〒540-0002 Osaka, Chuo Ward, Osakajo, １番１号
+          1 Chome-1-43 Abenosuji, Abeno Ward, Osaka, 545-6016 일본
           </div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6941-3044</div>
-          <div style={{ paddingTop: "20px" }}>성 종류: 아즈키-모모야마 양식의 성</div>
+          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6621-0300</div>
+          <div style={{ paddingTop: "20px" }}>소유주: 긴테쓰 그룹 홀딩스</div>
           <div style={{ paddingTop: "20px" }}>
             입장료: 성인: 600엔, 만 15세 이하 어린이는 무료입니다.
           </div>
           <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>성내 박물관 영업시간: am 9:00 ~ pm 17:00</div>
+          <div style={{ paddingTop: "20px" }}>지하 2층~지상 3.5층 10:00~20:30
+            12층,13층,14층 아베노하루카스 다이닝 11:00~23:00 지하 2층 아베노시장식당 10:00~22:00 *
+            일부 영업시간이 다른 점포도 있습니다.</div>
         </Col>
       </Row>
       <Row>
@@ -94,11 +96,9 @@ function Osakasang() {
             <b>설명</b>
           </h3>
           <div style={{ paddingTop: "20px" , fontSize:"20px" , lineHeight: "50px"}}>
-            일본에서는 수많은 영화의 소설 속에서 각색되는 도요토미 히데요시의 오사카성. 요새입니다.
-            해자를 깊이 파서 적이 쉽사리 넘어 들어올 수 없게하고 높은 누각을 지어 적의 침입을 빠르게
-            알아낼 수 있도록 하였습니다. 1583년 히데요시가 지어올린 이 성은 5층의
-            데슈카쿠(천수각)에, 기와까지 히데요시가 좋아하던 금박을 입혀서 당시 눈부시게 화려한
-            성이었다고 합니다.
+            일본에서 가장 높은 빌딩으로서 탁 트인 전망대로 유명한 우메다 공중공원을 제치고 오사카의 새로운 랜드마크가
+            된 하루카스는 새로운 랜드마크가 된 하루카스 300. 하루카스는 맑게하다 라는 뜻을 가지고 있으며, 지상 300m에서
+            오사카 지역을 한눈에 볼 수 있습니다. 최첨단 환경기술과 선천적 도시 기능을 결합한 최고의 건축물로 인정받고 있습니다.
           </div>
         </Col>
         <Col lg={7}>
@@ -106,8 +106,7 @@ function Osakasang() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.750019870646!2d135.5237758151773!3d34.6862580914994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0cd5c283afd%3A0xf01d07d5ca11e41!2z7Jik7IKs7Lm0IOyEsQ!5e0!3m2!1sko!2skr!4v1668428005853!5m2!1sko!2skr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.337112503487!2d135.51119905030274!3d34.64618838035248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000ddf023e6dd79%3A0x76f9200a45c2127!2z7JWE67Kg64W4IO2VmOujqOy5tOyKpA!5e0!3m2!1sko!2skr!4v1668742508099!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -182,7 +181,7 @@ function Osakasang() {
         >
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/harukas.png"}
+              src={process.env.PUBLIC_URL + "/image/sitennoji.jpg"}
               width="300"
               height="250"
               data-reactied="266>"

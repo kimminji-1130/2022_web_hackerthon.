@@ -73,19 +73,19 @@ function Doyokuni() {
               marginTop: "10px",
             }}
           >
-            <b>오사카성</b>
+            <b>토요쿠니 신사</b>
           </h1>
 
           <div style={{ paddingTop: "40px" }}>
-            일본 〒540-0002 Osaka, Chuo Ward, Osakajo, １番１号
+          530 Chayacho, Higashiyama Ward, Kyoto, 605-0931 일본
           </div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6941-3044</div>
-          <div style={{ paddingTop: "20px" }}>성 종류: 아즈키-모모야마 양식의 성</div>
+          <div style={{ paddingTop: "20px" }}>전화번호: +81 75-561-3802</div>
+          <div style={{ paddingTop: "20px" }}>매장 인물: 도요토미 히데요시, Kanō Naizen</div>
           <div style={{ paddingTop: "20px" }}>
-            입장료: 성인: 600엔, 만 15세 이하 어린이는 무료입니다.
+            입장료: 무료
           </div>
           <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>성내 박물관 영업시간: am 9:00 ~ pm 17:00</div>
+          <div style={{ paddingTop: "20px" }}>영업시간: am 9:00 ~ pm 16:30</div>
         </Col>
       </Row>
       <Row>
@@ -94,11 +94,11 @@ function Doyokuni() {
             <b>설명</b>
           </h3>
           <div style={{ paddingTop: "20px" , fontSize:"20px" , lineHeight: "50px"}}>
-            일본에서는 수많은 영화의 소설 속에서 각색되는 도요토미 히데요시의 오사카성. 요새입니다.
-            해자를 깊이 파서 적이 쉽사리 넘어 들어올 수 없게하고 높은 누각을 지어 적의 침입을 빠르게
-            알아낼 수 있도록 하였습니다. 1583년 히데요시가 지어올린 이 성은 5층의
-            데슈카쿠(천수각)에, 기와까지 히데요시가 좋아하던 금박을 입혀서 당시 눈부시게 화려한
-            성이었다고 합니다.
+            긴조를 지나 조금 더 내려오면 절이 있습니다. 도요토미 히데요시를 모시는 절입니다.
+            오사카성을 세운 토요토미 히데요시, 그의 아들 히데요리, 그의 동생 히데나가를 신으로 모십니다.
+            이 신사는 나카노시마에 1879년 세워졌으며, 1961년 현재의 장소로 옮겨놓았습니다.
+            절의 내부에는 신으로 모시는 이들의 신위를 모시고 있으며 토요토미 히데요시 동상이 있습니다.
+            참배하여 기도를 올리면 히데요시처럼 성공한다고 하여 사람들이 많이 찾는 신사입니다.
           </div>
         </Col>
         <Col lg={7}>
@@ -106,8 +106,7 @@ function Doyokuni() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.750019870646!2d135.5237758151773!3d34.6862580914994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0cd5c283afd%3A0xf01d07d5ca11e41!2z7Jik7IKs7Lm0IOyEsQ!5e0!3m2!1sko!2skr!4v1668428005853!5m2!1sko!2skr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.6047153502404!2d135.77021835031408!3d34.99156468026452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108c9923443df%3A0x1d7856f2a77780d9!2z64-E7JqU7L-g64uIIOyLoOyCrA!5e0!3m2!1sko!2skr!4v1668742045776!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -148,7 +147,7 @@ function Doyokuni() {
 
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/Doyokuni.jpg"}
+              src={process.env.PUBLIC_URL + "/image/sitennoji.jpg"}
               width="300"
               height="250"
               data-reactied="266>"

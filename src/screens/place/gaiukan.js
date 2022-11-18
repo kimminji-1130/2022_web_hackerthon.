@@ -73,19 +73,19 @@ function Gaiukan() {
               marginTop: "10px",
             }}
           >
-            <b>오사카성</b>
+            <b>가이유칸</b>
           </h1>
 
           <div style={{ paddingTop: "40px" }}>
-            일본 〒540-0002 Osaka, Chuo Ward, Osakajo, １番１号
+          1 Chome-1-10 Kaigandori, Minato Ward, Osaka, 552-0022 일본
           </div>
-          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6941-3044</div>
-          <div style={{ paddingTop: "20px" }}>성 종류: 아즈키-모모야마 양식의 성</div>
+          <div style={{ paddingTop: "20px" }}>전화번호: +81 6-6576-5501</div>
+          <div style={{ paddingTop: "20px" }}>건축가: 피터 체르메이예프</div>
           <div style={{ paddingTop: "20px" }}>
-            입장료: 성인: 600엔, 만 15세 이하 어린이는 무료입니다.
+            입장료: 성인: 2,300엔, 어린이 (초/ 중학생) 1,200엔, 유아 (4세 이상) 600엔, 시니어 (60세 이상 ※ 필수 인증서) 2,000엔
           </div>
-          <div style={{ paddingTop: "20px" }}>주차공간: 없음</div>
-          <div style={{ paddingTop: "20px" }}>성내 박물관 영업시간: am 9:00 ~ pm 17:00</div>
+          <div style={{ paddingTop: "20px" }}>주차공간: 있음</div>
+          <div style={{ paddingTop: "20px" }}>성내 박물관 영업시간: am 9:00 ~ pm 19:00</div>
         </Col>
       </Row>
       <Row>
@@ -94,11 +94,9 @@ function Gaiukan() {
             <b>설명</b>
           </h3>
           <div style={{ paddingTop: "20px" , fontSize:"20px" , lineHeight: "50px"}}>
-            일본에서는 수많은 영화의 소설 속에서 각색되는 도요토미 히데요시의 오사카성. 요새입니다.
-            해자를 깊이 파서 적이 쉽사리 넘어 들어올 수 없게하고 높은 누각을 지어 적의 침입을 빠르게
-            알아낼 수 있도록 하였습니다. 1583년 히데요시가 지어올린 이 성은 5층의
-            데슈카쿠(천수각)에, 기와까지 히데요시가 좋아하던 금박을 입혀서 당시 눈부시게 화려한
-            성이었다고 합니다.
+            가이유칸은 일본에서 가장 장관을 이루는 수족관 가운데 하나이며 독특한 전시 방법이 세계적으로 유명합니다.
+            가이유칸에서는 자연환경을 재현하여 환태평양에서 서식하는 생물들의 생동하는 모습을 소개하고 있습니다.
+            15개 이상의 거대한 수족관이 있으며 각각의 수족관은 환태평양의 구체적인 지역을 재현하고 있습니다. 관람자는 태평양을 순회하는 여행을 즐길 수 있습니다. 태양 광선이 들이비치는 일본의 아름다운 숲을 재현한 ‘일본의 숲’, 얼음과 눈으로 뒤덮인 ‘남극대륙’, 그리고 중심 수조는 세계에서 가장 큰 어류 ‘고래상어’가 헤엄치고 있는 깊이 9m, 길이 34m, 수량 5,400톤의 ‘태평양’ 수족관 등이 있습니다.
           </div>
         </Col>
         <Col lg={7}>
@@ -106,8 +104,7 @@ function Gaiukan() {
             <b>오시는 길</b>
           </h3>
           <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.750019870646!2d135.5237758151773!3d34.6862580914994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0cd5c283afd%3A0xf01d07d5ca11e41!2z7Jik7IKs7Lm0IOyEsQ!5e0!3m2!1sko!2skr!4v1668428005853!5m2!1sko!2skr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.007315540599!2d135.426770450303!3d34.654518180350365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e8f48c0da9cd%3A0x6f83c520ae082ccc!2z7ZW07Jyg6rSA!5e0!3m2!1sko!2skr!4v1668742337397!5m2!1sko!2skr"
               width="600"
               height="450"
               allowfullscreen=""
@@ -156,7 +153,7 @@ function Gaiukan() {
           </Col>
           <Col>
             <img
-              src={process.env.PUBLIC_URL + "/image/Gaiukan.jpg"}
+              src={process.env.PUBLIC_URL + "/image/sitennoji.jpg"}
               width="300"
               height="250"
               data-reactied="266>"
