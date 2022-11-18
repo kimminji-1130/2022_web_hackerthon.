@@ -35,18 +35,10 @@ import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
 import Test from "./screens/Test";
 //Talk
-import Header from "./component/Header";
-import Footer from "./component/Footer";
-import { useState } from 'react';
+
 
 
 function App() {
-
-  const [message, setMessage] = useState([{msg:"hi", from:false}])
-
-  const getMessage = (msg, from) =>{
-    setMessage((current) => [...current,({msg:msg, from:from})])
-  }
 
   return (
     <Router>
@@ -130,13 +122,7 @@ function App() {
         <Route path="/test" element={<Test />} />
         <Route path="/Ivis" element={<Ivis/>}/>
       </Routes>
-      <div className="App">
-        <Header />
-        <Talk message={message} />
-        <Footer setMessage = {getMessage}/>
-    </div>
-    </Router>
-
+      </Router>
   );
 }
 
